@@ -1,7 +1,6 @@
 # berny13
-Well there is this thing called github and now I'm learning how to use it. 
-There were essentially three steps: git init for the directory:
-									git commit -a -m "what you want to enter here"
-									git push origin 
-For whatever reason, the personal access code wasn't working, but that could be becuase I hadn't updated the readMe
-document, so, whatever. 
+I think I realize what is supposed to happen:
+1) if you cloned a file from git and now you want to make changes to it and then push it back up there: 
+you first have to add the changes to the file that you would like to push. This can be done with one step with the "git commit -a -m 'message'." 
+However, you are able to do it in two steps as well, such as first git add 'nameOfFileYouWantToEnter'. Then you write "git commit -m 'whatever',"
+and then you push it to the git repository. 
